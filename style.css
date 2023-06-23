@@ -1,0 +1,79 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+
+#hero {
+  width: 592px;
+  margin:0px auto 72px;
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+
+  margin-bottom: 32px;
+}
+
+/* No caso da tag h1, somente a palavra únicos está em bold. Desta forma deve-se usar o seletor h1 e em seguida o span, sem a vírgula (pois a palavra único está dentro da tag span)*/
+
+h1 span {
+  font-weight: bold;
+}
+
+p {
+font-family: 'Open Sans', sans-serif;
+color: #7D7987;
+font-size: 14px;
+line-height: 28px;
+}
+
+a {
+font-family: 'Open Sans', sans-serif;
+color: #FF9900;
+}
+
+span {
+  color: #FF9900;
+}
+
+#footer {
+  margin: auto;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#footer a + a {
+  margin-left: 28px;
+}
+
+.line {
+  width: 568px;
+  height: 0px;
+  left: 364px;
+  top: 651px;
+  border: 1px solid #ECEFF2;
+  margin: 0px auto 8px;
+
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+/* Se a mesma propriedade (no caso open sans) servir para outros seletores, pode-se fazer da maneira abaixo
+
+body, p, a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+No caso como p e a está dentro de body, poderia deixar somente o body*/
